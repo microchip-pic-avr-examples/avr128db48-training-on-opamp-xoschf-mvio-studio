@@ -41,7 +41,7 @@ Each assignment also comes whit a solution project found in the corresponding so
 
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
 * Atmel Studio AVR-Dx_DFP version 1.4.73 or later
-* For the MPLAB® X version of these projects, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-training-on-opamp-xoschf-mvio)
+* For the MPLAB® X version of these projects, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-training-on-opamp-xoschf-mvio-mplab)
 
 ## Hardware Used
 
@@ -49,11 +49,11 @@ Each assignment also comes whit a solution project found in the corresponding so
 
 ## Setup
 
-Moste assignments can be completed using the AVR128DB48 Cursiosity Nano without any extra components, but some assignments require a logic analyser or hardware modifications. See the utraining manual for setup for specific assignments.
+Most assignments can be completed using the AVR128DB48 Curiosity Nano without any extra components, but some assignments require a logic analyser or hardware modifications. See the training manual for setup for specific assignments.
 
 ## Operation
 
-* Connet the AVR128DB48 Curiosity Nano to the computer using a USB cable
+* Connect the AVR128DB48 Curiosity Nano to the computer using a USB cable
 * Clone the repository or download the zip to get the source code
 * Open the .atsln file in the assignment folder for the desired assignment
 * Complete the assignment according the the training manual 
