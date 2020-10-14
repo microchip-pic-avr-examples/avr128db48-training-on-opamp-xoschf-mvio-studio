@@ -1,0 +1,73 @@
+/*------------------------------------------------------------------------*/ /**
+\addtogroup doc_driver_dac_basic DAC Basic Driver
+ 
+\brief Driver for basic DAC functionality.
+
+The DAC Basic driver provides basic functionality for using the DAC. 
+The driver has the following features:
+- Initialization of the DAC
+- Starting a DAC conversion by writing to the DAC's DATA register
+- If the DAC hardware supports using multiple resolutions, 
+the conversion is done using the resolution specified by the user in START. 
+
+The DAC Basic driver does not use interrupts. The application code explicitly 
+starts a conversion by writing to the DAC's DATA register.
+
+
+\section doc_driver_dac_basic_functional Functional Description
+
+An DAC conversion is started by calling 
+<component_name>_set_output(dac_resolution_t value).
+A conversion will then be started in the DAC, and the result will be ready 
+after a number of clock cycles. The resulting analogue voltage can usually 
+be output on on I/O pin, or used by other internal consumers like ADC.
+
+DAC resolution are returned as datatype dac_resolution_t, which 
+has 16 bits. The data is right-adjusted, and the number of bits used
+is dependent on the resolution of the DAC, or the chosen resolution if 
+the DAC supports multiple resolutions. The function 
+<component_name>_get_resolution() returns the number of bits in the 
+DAC, and can be used to adjust or scale the input value if needed.
+
+
+\section doc_driver_dac_basic_hardware Hardware Dependencies
+
+The DAC Basic driver needs DAC hardware to perform conversions.
+When the user has selected a device and added an DAC component, 
+the Driver field in the Component Settings pane in START will 
+let the user select which timer driver to use, select *Drivers:DAC:Basic* 
+to use the DAC Basic driver.
+
+The Configuration Pane in START will display options that are 
+dependent on the hardware used to implement the DAC driver.
+For example, an option may allow changing the number of result bits 
+or clock prescaling used to drive the underlying DAC hardware.
+
+
+\section doc_driver_dac_basic_software Software Dependencies
+
+The DAC Basic does not use interrupts, so no configuration of the 
+Interrupt Controller is required.
+
+
+\section doc_driver_dac_basic_code Code example
+
+\code
+#include <atmel_start.h>
+
+int main(void)
+{
+	/* Initializes MCU, drivers and middleware */
+	atmel_start_init();
+
+	// Set output to 0.5 of max output
+	DAC_0_set_output( DAC_0_get_resolution() / 2);
+
+	while (1);
+}
+\endcode
+
+
+*/
+
+

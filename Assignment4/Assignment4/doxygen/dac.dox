@@ -1,0 +1,28 @@
+/*------------------------------------------------------------------------*/ /**
+\defgroup doc_driver_dac DAC Drivers
+
+The Digital-to-Analog Converter (DAC) converts a digital value to a voltage.
+The conversion range is between GND and the selected reference voltage.
+
+The following driver variants are available:
+
+- \ref doc_driver_dac_init : Init driver initializing the DAC hardware as 
+specified by the user in START.
+
+- \ref doc_driver_dac_basic : Provides basic functionality like:
+  - Initializing the DAC as specified by the user in START
+  - Starting DAC conversion
+
+\section doc_driver_dac_basic_and_practice DAC Basics and Best Practice
+
+Multiple resolutions may be supported by the DAC, lower resolution can
+reduce the conversion time or save power, but lose accuracy.
+
+Multiple reference voltages may be supported by the DAC, both internal and
+external. The reference voltage have an impact on the accuracy and 
+conversion range, and should be selected to cover the full range of the 
+desired output.
+
+*/
+
+

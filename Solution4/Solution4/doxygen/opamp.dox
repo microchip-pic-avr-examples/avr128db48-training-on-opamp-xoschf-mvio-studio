@@ -1,0 +1,71 @@
+/*------------------------------------------------------------------------------------------------------------------*/ /**
+\defgroup doc_driver_opamp OPAMP Drivers
+
+An Operational Amplifier, or op-amp for short, is fundamentally a voltage 
+amplifying device designed to be used with external feedback components 
+such as resistors and capacitors between its output and input terminals. 
+These feedback components determine the resulting function or operation 
+of the amplifier and by virtue of the different feedback configurations 
+whether resistive, capacitive or both, the amplifier can perform a 
+variety of different operations, giving rise to its name of 
+Operational Amplifier.
+
+
+The following driver variants are available:
+
+- \ref doc_driver_opamp_basic : Provides basic functionality like:
+  - Initializing the OPAMP as specified by the user in START
+  - Selecting appropriate OPAMP configurations and applications
+  - Fixing the settling time
+  - Auto-update of TIMEBASE values based on F_CPU
+
+\section doc_driver_opamp_basic_and_practice OPAMP Basics and Best Practice
+
+The Analog Signal Conditioning (OPAMP) peripheral features three operational amplifiers (op amps), designated
+OPn where n is zero, one or two. These op amps are implemented with a flexible connection scheme using analog
+multiplexers and resistor ladders. This allows a large number of analog signal conditioning configurations to be
+achieved, many of which require no external components. A multiplexer at the non-inverting (+) input of each op amp
+allows connection to either an external pin, a wiper position from a resistor ladder, a DAC output, ground, VDD/2, or
+an output from another op amp. A second multiplexer at the inverting (-) input of each op amp allows connection to
+either an external pin, a wiper position from a resistor ladder, the output of the op amp, or DAC output. Three more
+multiplexers connected to each resistor ladder provide additional configuration flexibility. Two of these multiplexers
+select the top and bottom connections to the resistor ladder, and the third controls the wiper position.
+
+The OPAMP peripheral is highly flexible and can be used in various analog signal conditioning applications. This
+section describes a broad range of configurations and the multiplexer settings required to achieve them. Many of
+these configurations require no external components.
+
+Following applications are supported by OPAMP:
+
+- Op Amp Connected Directly to Pins : An op amp connected directly to the pins of the device without being connected to any of
+the internal resistors. This is useful for situations where the user desires to make all connections to other components
+externally.
+
+- Voltage Follower : A Voltage follower, also known as a unity-gain buffer. The non-inverting (+) input is
+connected to a pin, and the output is connected to the inverting (-) input.
+
+- Non-Inverting PGA : The op amp non-inverting amplifier circuit provides a high input impedance along with all 
+the advantages gained from using an operational amplifier.
+
+- Inverting PGA : The op amp circuit for an inverting amplifier provides high performance with easy to 
+calculate values and a number of options for power supply, AC coupling and the like.
+
+- Integrator : The Op-amp Integrator is an operational amplifier circuit that performs the 
+mathematical operation of Integration, that is we can cause the output to respond to changes in the input 
+voltage over time as the op-amp integrator produces an output voltage which is proportional to the integral of the input voltage.
+
+- Differential Amplifier using Two Op Amps : The differential amplifier accepts two input signals, V1 and V2. 
+The output also consists of two signals, OP1OUT and V2. The difference of the output signals, VDIFF, is proportional 
+to the difference (V2-V1) of the two input signals.
+
+- Cascaded (Two/Three) Non-Inverting PGA : The op amp non-inverting amplifier circuit provides a high input impedance along with all 
+the advantages gained from using an operational amplifier.
+
+- Cascaded (Two/Three) Inverting PGA : The op amp circuit for an inverting amplifier provides high performance with easy to 
+calculate values and a number of options for power supply, AC coupling and the like.
+
+- Instrumentation Amplifier : An instrumentation amplifier is one kind of IC (integrated circuit), mainly used for 
+amplifying a signal. This amplifier comes under the family of the differential amplifier because it increases the 
+disparity among two inputs. The main function of this amplifier is to diminish surplus noise that is chosen by the circuit.
+
+*/

@@ -3,27 +3,27 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-training-on-opamp-xoschf-mvio-studio",
+        "version": "1.0.0",
+        "displayName": "Getting Started with OPAMP, XOSCHF and MVIO",
+        "projectName": "avr128db48-training-on-opamp-xoschf-mvio-studio",
+        "shortDescription": "These Atmel Studio 7 examples in Training on OPAMP, XOSCHF and MVIO Atmel Studio, show how the OPAMP, XOSCHF and MVIO peripherals can be used on the AVR DB family of microcontrollers.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
-			{
-				"name": "",
-				"semverRange": ""
-			}
-		],
+            {
+                "name": "AVR-GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": ">=1.4.73"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,26 +32,69 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
+               "Peripherals", "OPAMP"
             ],
             [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "MVIO"
+            ],            			
+            [
+               "Peripherals", "CLKCTRL"
+            ],
+            [
+                "Peripherals", "ADC"
+            ],
+            [
+                "Peripherals", "TCD"
+            ],
+            [
+               "Development Kit", "AVR128DB48 Curiosity Nano"
+            ],
+            [
+                "Supporting Tools", "MPLAB Data Visualizer"
+            ],
+            [
+                "Supporting Tools", "MPLAB Mindi"
+            ]
         ],
         "peripherals": [
-            "",""
+            "OPAMP", "MVIO", "CLKCTRL", "ADC", "TCD"
         ],
         "keywords": [
-            "",
-            ""			
+            "Analog Signal Conditioning",
+            "Getting Started",
+            "Resistor Ladder",
+			"Adjustable Gain",
+            "Programmable Gain",
+            "Operational Amplifier",
+            "Op Amp",
+            "Simulation",
+            "Intelligent Analog",
+            "Voltage Follower",
+            "Unity Gain Buffer",
+            "Programmable Gain Amplifier",
+            "PGA",
+            "Instrumentation Amplifier",
+            "Multi Voltage I/O",
+            "Multi Power Domain",
+            "Power Monitor",
+            "VDDIO2",
+            "Crystal",
+            "Oscillator",
+            "Clock Failure Detection",
+            "CFD",
+            "XOSCHF",
+            "NMI",
+            "PLL",
+            "AVR-DB",
+            "AVRDB",
+            "training-opamp-xoschf-mvio"
         ],
 		"additionalData": {
 			"longDescription": {
