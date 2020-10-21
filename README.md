@@ -28,7 +28,7 @@ Each assignment also comes with a solution project found in the corresponding so
 
 ## Related Documentation
 
-* [TBxxxx Getting Started whit AVR DB OPAMP, XOSCHF and MVIO - Atmel Studio](https://microchip.com/DS9000xxxx)
+* [TBxxxx Getting Started with AVR DB OPAMP, XOSCHF and MVIO - Atmel Studio](https://microchip.com/DS9000xxxx)
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 * [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 
@@ -43,6 +43,8 @@ Each assignment also comes with a solution project found in the corresponding so
 * AVR-GCC 5.40 or later 
 * [Atmel Start](https://start.atmel.com/) version 1.8.499 or later
 * Atmel Studio AVR-Dx_DFP version 1.4.73 or later
+* [MPLAB® Data Visualizer Stand alone](https://www.microchip.com/mplab/mplab-data-visualizer) version 1.1.793 or later
+* [MPLAB® Mindi™ Analog Simulator](https://www.microchip.com/mplab/mplab-mindi)
 * For the MPLAB® X version of these projects, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-training-on-opamp-xoschf-mvio-mplab)
 
 ## Hardware Used
@@ -53,7 +55,7 @@ Each assignment also comes with a solution project found in the corresponding so
 
 ## Setup
 
-Most assignments can be completed using the AVR128DB48 Curiosity Nano without any extra components, but some assignments require a logic analyzer or hardware modifications. See the training manual for setup of specific assignments.
+Most assignments can be completed using the AVR128DB48 Curiosity Nano without any extra components, but some assignments require the MPLAB® Data Visualizer Stand alone, MPLAB® Mindi™ Analog Simulator, a logic analyzer or hardware modifications. See the training manual for setup of specific assignments.
 
 ![MCHP](images/avr128db48-cnano.png)
 
