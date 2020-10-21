@@ -75,7 +75,6 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.21\include</Value>
       <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.4.73\include\</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
@@ -117,7 +116,6 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
-      <Value>%24(PackRepoDir)\Atmel\AVR-DB_DFP\1.0.21\include</Value>
       <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.4.73\include\</Value>
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>

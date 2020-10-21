@@ -5,9 +5,9 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128db48-training-on-opamp-xoschf-mvio-studio",
         "version": "1.0.0",
-        "displayName": "Training on OPAMP, XOSCHF and MVIO",
+        "displayName": "AVR DB training on OPAMP, XOSCHF and MVIO",
         "projectName": "avr128db48-training-on-opamp-xoschf-mvio-studio",
-        "shortDescription": "These Atmel Studio 7 examples in Training on OPAMP, XOSCHF and MVIO Atmel Studio, show how the OPAMP, XOSCHF and MVIO peripherals can be used on the AVR DB family of microcontrollers.",
+        "shortDescription": "Atmel Studio 7 training code examples for the AVR DB family of microcontrollers, demonstrating use of the OPAMP, XOSCHF and MVIO peripherals.",
         "ide": {
             "name": "Studio",
             "semverRange": ">=7.0.2397"
