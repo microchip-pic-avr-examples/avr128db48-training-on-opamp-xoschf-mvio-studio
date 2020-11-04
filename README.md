@@ -28,7 +28,7 @@ Each assignment also comes with a solution project found in the corresponding so
 
 ## Related Documentation
 
-* [TBxxxx Getting Started with AVR DB OPAMP, XOSCHF and MVIO - Atmel Studio](https://microchip.com/DS9000xxxx)
+* [Training Getting Started with AVR DB OPAMP, XOSCHF and MVIO - Atmel Studio](https://microchip.com/DS40002277)
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 * [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 
