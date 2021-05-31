@@ -26,6 +26,11 @@ VDDIO2 Failure Detection
 
 Each assignment also comes with a solution project found in the corresponding solution folder. 
 
+**Click on the below image for Training video**
+<p align="center">
+<br><a href="https://youtu.be/Z_syAVUn_zY" rel="nofollow"><img src="images/YT_Training_AVR_DB.png" alt="AVR DB" width="500"/></a>
+</p>
+
 ## Related Documentation
 
 * [Training Getting Started with AVR DB OPAMP, XOSCHF and MVIO - Atmel Studio](https://microchip.com/DS40002277)
