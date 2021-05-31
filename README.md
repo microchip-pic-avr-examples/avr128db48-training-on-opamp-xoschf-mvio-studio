@@ -28,7 +28,7 @@ Each assignment also comes with a solution project found in the corresponding so
 
 **Click on the below image for Training video**
 <p align="center">
-<br><a href="Link to video series: https://www.youtube.com/playlist?list=PL9B4edd-p2ag0ErR65zx306mtoHysMyPh" rel="nofollow"><img src="images/YT_Training_AVR_DB.png" alt="AVR DB" width="500"/></a>
+<br><a href="https://www.youtube.com/playlist?list=PL9B4edd-p2ag0ErR65zx306mtoHysMyPh" rel="nofollow"><img src="images/YT_Training_AVR_DB.png" alt="AVR DB" width="500"/></a>
 </p>
 
 ## Related Documentation
