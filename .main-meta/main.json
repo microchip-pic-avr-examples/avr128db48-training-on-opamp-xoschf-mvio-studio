@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128db48-training-on-opamp-xoschf-mvio-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "AVR DB training on OPAMP, XOSCHF and MVIO",
         "projectName": "avr128db48-training-on-opamp-xoschf-mvio-studio",
         "shortDescription": "Atmel Studio 7 training code examples for the AVR DB family of microcontrollers, demonstrating use of the OPAMP, XOSCHF and MVIO peripherals.",
