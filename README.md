@@ -27,7 +27,7 @@ VDDIO2 Failure Detection
 Each assignment also comes with a solution project found in the corresponding solution folder. 
 
 **Click on the below image for Training video**
-<p align="center">
+<p align="left">
 <br><a href="https://www.youtube.com/playlist?list=PL9B4edd-p2ag0ErR65zx306mtoHysMyPh" rel="nofollow"><img src="images/YT_Training_AVR_DB.png" alt="AVR DB" width="500"/></a>
 </p>
 
