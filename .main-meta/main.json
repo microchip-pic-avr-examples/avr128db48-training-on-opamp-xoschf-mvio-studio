@@ -9,7 +9,7 @@
         "projectName": "avr128db48-training-on-opamp-xoschf-mvio-studio",
         "shortDescription": "Atmel Studio 7 training code examples for the AVR DB family of microcontrollers, demonstrating use of the OPAMP, XOSCHF and MVIO peripherals.",
         "ide": {
-            "name": "Studio",
+            "name": "STUDIO",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
