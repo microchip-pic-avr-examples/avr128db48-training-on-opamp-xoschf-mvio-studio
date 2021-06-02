@@ -76,7 +76,7 @@ void CLOCK_XOSCHF_crystal_init(void)
 	ccp_write_io((uint8_t *) &CLKCTRL.XOSCHFCTRLA, CLKCTRL_RUNSTDBY_bm
 	             | CLKCTRL_CSUTHF_4K_gc
 	             | CLKCTRL_FRQRANGE_16M_gc
-	             | CLKCTRL_SELHF_CRYSTAL_gc
+	             | CLKCTRL_SELHF_XTAL_gc
 	             | CLKCTRL_ENABLE_bm);
 
 	/* Confirm crystal oscillator start-up */

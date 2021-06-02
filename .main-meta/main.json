@@ -20,7 +20,7 @@
         ],
         "dfp": {
             "name": "AVR-Dx_DFP",
-            "semverRange": ">=1.4.73"
+            "semverRange": ">=1.8.95"
         },
         "configurator": {
             "name": "N/A",
