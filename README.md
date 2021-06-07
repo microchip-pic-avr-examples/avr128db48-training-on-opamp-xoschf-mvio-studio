@@ -47,7 +47,7 @@ Each assignment also comes with a solution project found in the corresponding so
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
 * AVR-GCC 5.40 or later 
 * [Atmel Start](https://start.atmel.com/) version 1.8.499 or later
-* Atmel Studio AVR-Dx_DFP version 1.4.73 or later
+* Atmel Studio AVR-Dx_DFP version 1.8.95 or later
 * [MPLAB® Data Visualizer Stand alone](https://www.microchip.com/mplab/mplab-data-visualizer) version 1.1.793 or later
 * [MPLAB® Mindi™ Analog Simulator](https://www.microchip.com/mplab/mplab-mindi)
 * For the MPLAB® X version of these projects, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-training-on-opamp-xoschf-mvio-mplab)
