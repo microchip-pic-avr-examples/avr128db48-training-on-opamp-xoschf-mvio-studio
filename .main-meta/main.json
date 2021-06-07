@@ -10,7 +10,7 @@
         "shortDescription": "Atmel Studio 7 training code examples for the AVR DB family of microcontrollers, demonstrating use of the OPAMP, XOSCHF and MVIO peripherals.",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ">=7.0.2397"
+            "semverRange": ">=7.0.2542"
         },
         "compiler": [
             {
@@ -36,7 +36,7 @@
                 "versionRange": "*"
             }
         },
-        "author": "Microchip",
+        "author": "Martin Mostad",
         "subcategories": [
             [
                "Peripherals", "OPAMP"
@@ -52,15 +52,6 @@
             ],
             [
                 "Peripherals", "TCD"
-            ],
-            [
-               "Development Kit", "AVR128DB48 Curiosity Nano"
-            ],
-            [
-                "Supporting Tools", "MPLAB Data Visualizer"
-            ],
-            [
-                "Supporting Tools", "MPLAB Mindi"
             ]
         ],
         "peripherals": [
@@ -94,7 +85,10 @@
             "PLL",
             "AVR-DB",
             "AVRDB",
-            "training-opamp-xoschf-mvio"
+            "training-opamp-xoschf-mvio",
+			"Curiosity Nano",
+			"Mindi",
+			"MPLAB Data Visualizer"
         ],
 		"additionalData": {
 			"longDescription": {
